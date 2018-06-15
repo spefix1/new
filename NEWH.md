@@ -1,6 +1,14 @@
 # new
+lista = ["a","b","c"]
+def contar(lista):
+    lista.append(5)
+    lista.insert(0,2)
+    listacont = []
+    for i in range(len(lista)):
+        return lista
+print(contar(lista))
 
-Maior
+# Maior
 def maior(vetor):
     maior = 0
      for v in vetor:
@@ -10,7 +18,7 @@ def maior(vetor):
 vetor = [7,8,9,3]
 print(maior(vetor))
 
-media matriz
+# media matriz
 
 matriz = [[6,10,10], [7,4,2],[10,5,3]]
 
@@ -28,7 +36,7 @@ for linha in range(len(matriz)):
         
 print("Aluno com maior média:",alunoMaiorMedia, " - Maior média:", maiorMedia)
 
-media 
+# media 
 
 notas  =  [3,5,9]
 
@@ -48,19 +56,27 @@ def resultado(nota):
 mediaCalculada = calcularMedia(notas)
 resultado(mediaCalculada)
 
-add invertido
 
-lista =["a", "b", "c"]
-def inverter(lista):
-    lista.reverse()
+
+
+# INVERTIDA
+lista = ["a","b","c"]
+def contar(lista):
+    listacont = []
+    for i in range(len(lista)):
+        listacont.append(lista.pop())
+    return listacont
+print(contar(lista))
+
+# deix
+lista = ["a","b","c"]
+def contar(lista):
     lista.append(5)
-    return lista
-print(inverter(lista))
+    lista.insert(0,2)
+    listacont = []
+    for i in range(len(lista)):
+        return lista
+print(contar(lista))
 
-add normal
 
-lista =["a", "b", "c"]
-def listar(lista):
-    lista.append(5)
-    return lista
-print(listar(lista))
+
