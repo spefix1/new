@@ -1,8 +1,6 @@
 # new
-new
 
 Maior
-
 def maior(vetor):
     maior = 0
      for v in vetor:
