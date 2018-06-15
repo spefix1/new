@@ -1,10 +1,11 @@
 # new
 new
+
 Maior
+
 def maior(vetor):
     maior = 0
-    
-    for v in vetor:
+     for v in vetor:
         if v > maior:
             maior = v
     return maior
@@ -12,6 +13,7 @@ vetor = [7,8,9,3]
 print(maior(vetor))
 
 media matriz
+
 matriz = [[6,10,10], [7,4,2],[10,5,3]]
 
 alunoMaiorMedia = -1
@@ -27,7 +29,6 @@ for linha in range(len(matriz)):
         alunoMaiorMedia = linha
         
 print("Aluno com maior média:",alunoMaiorMedia, " - Maior média:", maiorMedia)
-
 
 media 
 
